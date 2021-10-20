@@ -4,3 +4,5 @@ let darkMode = () => {
     else localStorage.removeItem('darkmode');   
 }
 if(localStorage.getItem('darkmode') == 'on') document.body.classList.add('dark');
+
+console.log('dark mode');
